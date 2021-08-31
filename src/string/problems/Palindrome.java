@@ -11,22 +11,20 @@ public class Palindrome {
 
             Write a method to check if a given String is a palindrome or not.
          */
-        String original;
-        StringBuilder reverse = new StringBuilder(" ");
+        String original, reverse = "";
+
         Scanner stdin = new Scanner(System.in);
         System.out.println("Enter a string: ");
         original = stdin.nextLine();
         int length = original.length();
 
-        for(int i = length-1; i>=0; i--){
-            reverse.append(original.charAt(i));
-        }
-        if(original.equals(reverse.toString())){
+        for(int i = length-1; i>=0; i--)
+            reverse = reverse + original.charAt(i);
+
+        if(original.equals(reverse))
             System.out.println("Entered string is palindrome.");
-        }
-        else {
+        else
             System.out.println("Entered string is not palindrome. ");
-        }
 
     }
 }
