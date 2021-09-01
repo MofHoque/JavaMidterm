@@ -7,43 +7,45 @@ What is a JDK composed of? Define each components?
 Answer:
 
 What is an IDE?
-Answer:
+Answer: Integrated development environment
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer: IntelliJ, eclipse
 
 Explain the entire java life cycle.
 Answer:
 
 What is a class?
-Answer:
+Answer: Class describe certain types of object.
 
 What is an object?
-Answer:
+Answer: Element of class.
 
 What is the entry point of an application?
-Answer:
+Answer: Identify a resource that is an access point to an application.
 
 Why is the main() static?
-Answer:
+Answer: Java main method is always static. So any method can be called inside the main method.
 
 Which class is the superclass of all classes?
-Answer:
+Answer: Object class
 
 What is difference between path and classpath variables?
-Answer:
+Answer: Path is the environment variable where we specify the location of binaries. Classpath is the for the java application with where the classes you compile
+will be available.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer: An abstract class allows you to create functionality that subclasses can implement or override. And interface only allows to define
+functionality.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer: You can not create an object of abstract class or interface since they are incomplete classes.
 
 What is Access Modifier?
-Answer:
+Answer: Specify the accessibility or scope of a filed method construct or class.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer: Object oriented Programming allows user to create object and method to work with them.
 
 What is Java Package and which package is imported by default?
 Answer:
@@ -55,7 +57,7 @@ Does java support multiple inheritance? Why or why not?
 Answer:
 
 What is method overloading and when does it happen?
-Answer:
+Answer: Method overloading allows user to a class with having more than one method .
 
 Explain exceptions in java and how to handle them.
 Answer:
